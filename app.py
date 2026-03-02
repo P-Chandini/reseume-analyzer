@@ -57,7 +57,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- 2. MODEL CONFIGURATION ---
-genai.configure(api_key="AIzaSyDGvyfvs2ijKjs3PK0dezpRGeHwwsPNBKA")
+genai.configure(api_key="AIzaSyAXjbGAMe71CUPlmRN2ROKj9-xFGL1xYxs")
 
 SYSTEM_INSTRUCTION = "You are a Senior Lead Interviewer. You extract skill themes and generate difficult technical questions with precise, numbered answers."
 model = genai.GenerativeModel(
